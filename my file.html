@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Preview card</title>
+    <style>
+        
+   
+            
+         @font-face{
+             font-family: montserrat;
+             src:url(montserrat/static/Montserrat-Regular.ttf)
+    }
+        .card-container{
+            display:flex;
+            justify-content:center;
+            align-items: center;
+            background-color:hsl(30, 38%, 92%);
+            width:100vw;
+            height:100vh;
+            font-family: montserrat;
+            
+        }
+        .card-description{
+        background-color:hsl(0, 0%, 100%);
+        padding:19px;
+        border-radius:20px 20px 20px 20px;
+        }
+        
+        .image{
+         float:left;
+         width:350px;
+         height:420px;
+         margin-right:15px;
+         border-radius:20px 0px 0px 20px;
+        }
+        
+        .card-description p{
+        color:hsl(228, 12%, 48%);
+        font-size:14px;
+        }
+        
+        .card-description h6{
+            color:hsl(228, 12%, 48%);
+            font-size:20px;
+        }
+        
+        
+        .first{
+         margin-right:20px;
+         font-size:35px;
+         font-weight:bold;
+         color:hsl(158, 36%, 37%);
+        }
+        
+        
+        .btnn{
+            background-color:hsl(158, 36%, 37%) ;
+            border:none;
+            border-radius:10px;
+            padding:9px;
+            width:245px;
+            height:55px;
+            color:white;
+            margin-top:30px;
+        }
+        
+        
+        .second{
+            color:hsl(228, 12%, 48%);
+        }
+            
+            
+        .cart{
+            margin-right:10px;
+        }   
+            
+            
+        
+        
+       
+            
+             
+            
+    
+    </style>
+</head>
+<body> 
+    <div class="body">
+        <div class="card-container">
+            <div class="card-content">  
+           <img  class="image"
+           src="images/image-product-desktop.jpg" alt="card image">   
+           <div class="card-description">
+               <h6>PERFUME</h6>
+               <h1>Gabrielle Essence Eau De Parfum</h1>
+               <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+  Perfumer-Creator for the House of CHANEL.</p>
+  <span class="first">$149.99</span>
+  <span class="second"><s>$169.99</s></span>
+  <div class="button-container"><button class="btnn"><img src="images/icon-cart.svg" alt="" class="cart">Add to Cart</button></div>
+  
+           </div>
+           </div>
+          </div>  
+          </div>
+</body>
+</html>
